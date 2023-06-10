@@ -22,6 +22,7 @@ public class Grammar {
         // 非小写字母为非终结符
         String patternNonTerminal = "[A-Z]";
 
+        //增加一句注释
         // 获取终结符
         Set<Character> terminals = new HashSet<>();
         for (char c : grammar.toCharArray()) {
